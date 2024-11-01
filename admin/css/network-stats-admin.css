@@ -1,0 +1,168 @@
+/**
+ * All of the CSS for your dashboard-specific functionality should be
+ * included in this file.
+ */
+
+label {
+    font-weight: 500;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 0;
+}
+.highlight {
+    background-color: transparent;
+}
+a {
+    text-decoration: none;
+    color: #3498DB;
+}
+.text {
+    width: 100%;
+}
+.text p {
+    width: 75%;
+    margin: auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+/**
+ * All of the CSS for overriding bootstrap styles only
+ */
+.container {
+    width: 100%;
+}
+.container .row {
+    margin-bottom: 30px;
+}
+
+.vis_loading {
+    height:     100%;
+    width:      100%;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+#analytics.loading .vis_loading {
+    display: block;
+}
+
+/**
+ * All of the CSS for your network stats visualization page only
+ */
+
+.h-divider{
+    margin-top:5px;
+    margin-bottom:5px;
+    height:1px;
+    width:100%;
+    border-top:1px solid gray;
+}
+
+.v-divider{
+    height:100%;
+    border-left:1px solid gray;
+}
+
+#vis_loading_block {
+    margin: 25px 20px 0 2px;
+}
+
+.vis_loading {
+    background: url('../images/loader-animation.gif')
+        50% 50%
+        no-repeat;
+    height:     31px;
+    width:      31px;
+    float: left;
+    margin-right: 15px;
+}
+
+#vis_loading_error {
+    display: none;
+    margin: 25px 20px 0 2px;
+}
+
+
+#vis_privacy {
+    /*float: left;*/
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+#vis_theme {
+    /*float: left;*/
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+#vis_db_version {
+    /*float: left;*/
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+#vis_registrations {
+    /*float: left;*/
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+#vis_multidimensional_detective {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+.parcoords {
+    /*background-color: transparent;*/
+    background-color: rgb(252, 252, 252);
+}
+
+/**
+ * From style.css of example for parcoords
+ */
+
+body {
+    background: #f1f1f1;
+}
+a {
+    color: #555;
+}
+a:hover {
+    color: #000;
+}
+.dark {
+    background: #222;
+}
+pre {
+    color: #444;
+    font-family: Ubuntu Mono, Monaco, monospace;
+    padding: 4px 8px;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+}
+h1 small {
+    font-weight: normal;
+    font-size: 0.5em;
+}
+h3 {
+    margin-top: 40px;
+}
+.float {
+    float: left;
+}
+.centered {
+    text-align: center;
+}
+.hide {
+    display: none;
+}
+input {
+    font-size: 16px;
+}
+
